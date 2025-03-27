@@ -1,0 +1,14 @@
+package com.hortifruti.dto;
+
+import java.util.List;
+
+public class PedidoDTO {
+    private String cliente;
+    private String telefone;
+    private String estado;
+    private String data;
+    private List<ItemPedidoDTO> itens;
+    private Double total;
+
+    // Getters e Setters
+}

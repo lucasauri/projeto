@@ -1,0 +1,20 @@
+hortifruti-system/
+│── backend/
+│   ├── src/main/java/com/hortifruti/
+│   │   ├── controller/     # Controladores (API REST)
+│   │   │   ├── PedidoController.java
+│   │   ├── model/          # Modelos (Entidades do banco de dados)
+│   │   │   ├── Pedido.java
+│   │   │   ├── ItemPedido.java
+│   │   ├── repository/     # Interfaces JPA (Banco de Dados)
+│   │   │   ├── PedidoRepository.java
+│   │   │   ├── ItemPedidoRepository.java
+│   │   ├── service/        # Regras de Negócio
+│   │   │   ├── PedidoService.java
+│   │   ├── dto/            # Objetos de Transferência de Dados
+│   │   │   ├── PedidoDTO.java
+│   │   ├── utils/          # Utilitários (Geração de PDF, conversões)
+│   │   │   ├── PdfService.java
+│   │   └── HortifrutiApplication.java   # Classe principal
+│   ├── src/main/resources/
+│   │   ├── application.properties       # Configuração do Banco
